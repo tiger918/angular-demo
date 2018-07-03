@@ -1,0 +1,30 @@
+$font14: 14px;
+
+:host ::ng-deep .ant-layout-header {
+    .logo {
+        color: #fff;
+        float: left;
+        height: 100%;
+        img {
+            width: 64px;
+            height: 64px;
+            vertical-align: baseline;
+        }
+        span{
+            display: inline-block;
+            vertical-align: top;
+            line-height: 64px;
+            margin-left: 10px;
+            font-size: $font14;
+        }
+    }
+    .set{
+        float: right;
+    }
+}
+
+:host ::ng-deep .ant-layout-content {
+    background:#fff;
+    padding: 24px;
+    min-height: 280px;
+}
